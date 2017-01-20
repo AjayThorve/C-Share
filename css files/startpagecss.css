@@ -1,0 +1,72 @@
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+#loading:hover
+{
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         3s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+ }
+.aab                   /*dont have na account and signup statement css properties!*/
+{
+border-style:transparent;
+border-color:#98bf21;
+background:#B3EE3A;
+float:right;
+border-radius:20px;
+padding:10px;
+}
+.signup				/*Signp form css properties*/
+{
+border-style:solid;
+border-color:lightblue;
+margin-left:325px;
+float:right;
+width:750px;
+background:#B3EE3A;
+padding:10px;
+width:500px;
+border-radius:20px;
+}
+.aab1				/*3 guys logo*/
+{
+margin-left:350px;
+margin-top:100px;
+}
+p					/*All paragraphs css properties*/
+{
+font-family:Bernard MT,Helvetica, sans-serif;
+font-size:20px;
+}
+input.ii			/*list elements of the unordered list(ul)  css properties*/
+{
+padding:7px;
+}
+font				/*font tag css properties*/
+{
+margin-left:200px;
+font-size:500%;
+color:white;
+font-family:Bernard MT,Helvetica, sans-serif;
+}
+a:link,a:visited	/*anchor <a> tag for link and visted actions css properties*/
+{
+text-decoration:none;
+color:black;
+}
+a:hover,a:active	/*anchor <a> tag for hover and active actions css properties*/
+{
+text-decoration:underline;
+}
+a.aabd,a.bbb,a.bbb1		/*anchor tag for aabd-'Signup',bbb-'close',bbb1-'Dont have an account???' css properties*/
+{
+text-decoration:none;
+}
+.slideshow { height: 400px; width: 400px; float:left; }
+.slideshow img { padding: 15px; border: 1px solid #ccc; background-color: #eee; }

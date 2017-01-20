@@ -3,6 +3,7 @@
 A file sharing web application.
 
 Features:
+
 1. Login/Signup Authentication
 2. Users can share files(media,documents,etc.)
 3. Users can view their friends' shared files and other public files
